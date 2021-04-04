@@ -5,7 +5,7 @@ from data.users import User
 from data.jobs import Jobs
 
 app = Flask(__name__)
-app.config['SECRET_KEY'] = 'you_will_never_pass_my_password'
+app.config['SECRET_KEY'] = 'yandexlyceum_secret_key'
 
 
 @app.route('/')
